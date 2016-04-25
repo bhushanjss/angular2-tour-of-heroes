@@ -68,7 +68,7 @@ import {HeroService} from './hero.service';
 	providers:[HeroService]
 })
 
-export class AppComponent implements onInit {
+export class AppComponent implements OnInit {
 
 	constructor(private _heroService: HeroService) { }
 
